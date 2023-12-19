@@ -5,10 +5,10 @@ function toggleMenu() {
   icon.classList.toggle("open");
 }
 
-function myFunction() {
-  let dots = document.getElementById("dots");
-  let moreText = document.getElementById("more");
-  let btnText = document.getElementById("myBtn");
+function myFunction(projectNumber) {
+  let dots = document.getElementById("dots" + projectNumber);
+  let moreText = document.getElementById("more" + projectNumber);
+  let btnText = document.getElementById("myBtn" + projectNumber);
 
   if (dots.style.display === "none") {
     dots.style.display = "inline";

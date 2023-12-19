@@ -49,7 +49,25 @@
       </nav>
       <section id="profile">
         <div class="section__text">
-          <p class="section__text__p1">Hello, I'm</p>
+          <div class="box">
+            <ul class="scrolling-text">
+              <li class="item-1">Hello</li>
+              <li class="item-2">Bonjour</li>
+              <li class="item-3">Guten tag</li>
+              <li class="item-4">안녕하세요</li>
+              <li class="item-5">Olá</li>
+              <li class="item-6">Hola</li>
+              <li class="item-7">Namaste</li>
+              <li class="item-8">nǐ hǎo</li>
+              <li class="item-9">Ciao</li>
+              <li class="item-10">Salam</li>
+              <li class="item-11">Вітаю</li>
+              <li class="item-12">Ẹ n lẹ</li>
+              <li class="item-13">Здраво</li>
+              <li class="item-14">สวัสดี</li>
+            </ul>
+          </div>
+          <p class="section__text__p1">I'm</p>
           <h1 class="title">Shivani Bhakta</h1>
           <p class="section__text__p2">Full Stack Developer</p>
           <div class="btn-container">
@@ -75,13 +93,6 @@
             </a>
           </div>
         </div>
-        <div class="section__pic-container">
-          <img
-            src="./assets/profilepic.jpg"
-            id="profileimg"
-            alt="Shivani Bhakta profile picture"
-          />
-        </div>
       </section>
     </section>
     <section id="about">
@@ -90,8 +101,8 @@
       <div class="section-container">
         <div class="section__pic-container">
           <img
-            src="./assets/aboutme.jpg"
-            alt="progile picture"
+            src="./assets/profilepic.jpg"
+            alt="profile picture"
             class="about-pic"
           />
         </div>
@@ -118,8 +129,8 @@
             <p>
               &#128075;Hello there! I'm Shivani, a verstaile professional with a
               unique blend of skills and experiences.
-              <span id="dots">...</span>
-              <span id="more">
+              <span id="dots1">...</span>
+              <span id="more1">
                 &#128187; I love the challenge of coding and problem-solving! My
                 focus is on crafting websites that seamlessly combine
                 functionality with a fun user experience. &#127891; In addition
@@ -132,7 +143,7 @@
                 not coding, you can find me traveling, exploring new
                 restaurants, reading, or trying out new recipes.
               </span>
-              <button onclick="myFunction()" id="myBtn">Read more</button>
+              <button onclick="myFunction(1)" id="myBtn1">Read more</button>
             </p>
           </div>
         </div>
@@ -159,7 +170,18 @@
                 class="project-img"
               />
             </div>
-            <p class="experience-sub-title project-title">Weather App</p>
+            <p class="experience-sub-title project-title">
+              A different weather app.
+              <span id="dots2" style="display: inline">...</span>
+              <span id="more2" style="display: none">
+                Integrated with restfulAPI to fetch real-time weather data. Not
+                sure what to wear outside? Traveling and not sure what to pack?
+                Input the city & it will recommend a suitable outfit based on
+                temperature, sky conditions, and wind speed. Enhancing both
+                functionality and user experience.
+              </span>
+              <button onclick="myFunction(2)" id="myBtn2">Read more</button>
+            </p>
             <div class="btn-container">
               <a
                 href="https://github.com/sbhakta612/WeatherApp"
@@ -185,10 +207,20 @@
                 class="project-img"
               />
             </div>
-            <p class="experience-sub-title project-title">Travel Blog</p>
+            <p class="experience-sub-title project-title">
+              A beautiful travel site
+              <span id="dots3" style="display: inline">...</span>
+              <span id="more3" style="display: none">
+                inspires the wanderlust in us. A dynamic and visually appealing
+                mock travel site created with HTML, CSS, and vanilla JavaScript.
+                This responsive and mobile-friendly website features seamless
+                animations, providing an immersive user experience.
+              </span>
+              <button onclick="myFunction(3)" id="myBtn3">Read more</button>
+            </p>
             <div class="btn-container">
               <a
-                href="https://github.com/sbhakta612/Roaming_New_Routes"
+                href="https://github.com/sbhakta612/Wanderlust"
                 target="_blank"
                 class="project-link"
               >
@@ -196,7 +228,7 @@
               </a>
 
               <a
-                href="https://sbhakta612.github.io/Roaming_New_Routes/"
+                href="https://sbhakta612.github.io/Wanderlust/"
                 target="_blank"
                 class="project-link"
               >
@@ -213,7 +245,16 @@
                 class="project-img"
               />
             </div>
-            <p class="experience-sub-title project-title">Google</p>
+            <p class="experience-sub-title project-title">
+              This cloned Google page
+              <span id="dots4" style="display: inline">...</span>
+              <span id="more4" style="display: none">
+                retains the familiar Google aesthetics while introducing an
+                extra layer of customization with a toggle feature for light and
+                dark modes.
+              </span>
+              <button onclick="myFunction(4)" id="myBtn4">Read more</button>
+            </p>
             <div class="btn-container">
               <a
                 href="https://github.com/sbhakta612/Google_Homepage"
@@ -240,7 +281,18 @@
                 class="project-img"
               />
             </div>
-            <p class="experience-sub-title project-title">CRUD App</p>
+            <p class="experience-sub-title project-title">
+              A versatile CRUD website
+              <span id="dots5" style="display: inline">...</span>
+              <span id="more5" style="display: none">
+                for managing contacts. This user-friendly address book allows
+                users to input and manage names, phone numbers, and email
+                addrresses effortlessly. Users can create and read their inputs,
+                and edit them as well. Nobody likes to burn bridges, but there
+                is a delete button!
+              </span>
+              <button onclick="myFunction(5)" id="myBtn5">Read more</button>
+            </p>
             <div class="btn-container">
               <a
                 href="https://github.com/sbhakta612/CRUD_website"
@@ -301,7 +353,7 @@
           </ul>
         </div>
       </nav>
-      <p>Copyright &#169; 2023 Shivani Bhakta. All Rights Reserved.</p>
+      <p id="end-footer">By Shivani Bhakta 2023</p>
     </footer>
     <script src="script.js" onclick="toggleMenu()"></script>
   </body>
