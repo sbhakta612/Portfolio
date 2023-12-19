@@ -196,12 +196,7 @@ section {
 
 .btn-color-1,
 .btn-color-2,
-#myBtn,
-#myBtn1,
-#myBtn2,
-#myBtn3,
-#myBtn4,
-#myBtn5 {
+#myBtn {
   border: rgb(53, 53, 53) 0.1rem solid;
 }
 
@@ -218,16 +213,18 @@ section {
 
 .btn-color-1,
 .btn-color-2:hover,
-#myBtn:hover,
+#myBtn:hover {
+  background: rgb(53, 53, 53);
+  color: white;
+}
+
 #myBtn1:hover,
 #myBtn2:hover,
 #myBtn3:hover,
 #myBtn4:hover,
 #myBtn5:hover {
-  background: rgb(53, 53, 53);
-  color: white;
+  color: rgba(233, 195, 173, 255);
 }
-
 .btn-color-1:hover {
   background: rgb(0, 0, 0);
 }
@@ -322,8 +319,6 @@ section {
 }
 
 .color-container {
-  border-color: rgb(163, 163, 163);
-  background: rgb(250, 250, 250);
   width: 20%;
   margin-top: 30px;
   max-height: 322.4px;
@@ -338,7 +333,7 @@ section {
 .project-title {
   margin: 1rem;
   color: black;
-  font-size: 13px;
+  font-size: 15px;
 }
 
 .project-link {
