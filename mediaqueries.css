@@ -145,9 +145,21 @@
     height: 100%;
     margin-bottom: 16vh;
   }
+  .color-container {
+    max-height: min-content;
+    background-color: antiquewhite;
+  }
+
+  #myBtn1,
+  #myBtn2,
+  #myBtn3,
+  #myBtn4,
+  #myBtn5 {
+    border: none;
+  }
 }
 
-@media screen and (max-width: 600px) {
+/* @media screen and (max-width: 600px) {
   #projects,
   #profile,
   #about {
@@ -155,10 +167,7 @@
   }
   #contact,
   footer {
-    height: 40vh;
-  }
-  #profile {
-    margin-bottom: 0;
+    height: 10vh;
   }
 
   #profileimg {
@@ -335,4 +344,4 @@
   .text-container {
     max-width: 100%;
   }
-}
+} */
